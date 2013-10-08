@@ -1,3 +1,7 @@
+Arduino-Python Real Time Graphs
+===============================
+
+You will need to install matplotlib, pyserial, numpy, and possibly libpng.
 
 
 
@@ -5,6 +9,9 @@
 
 ### References:
 
+Credits to electronut for the arduino and python code.
+
+Here are the links to his gists on how the code works:
 
 https://gist.github.com/electronut/5641938
 
