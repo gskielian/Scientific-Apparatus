@@ -4,7 +4,10 @@ Arduino-Python Real Time Graphs
 You will need to install matplotlib, pyserial, numpy, and possibly libpng.
 
 
-
+don't forget to add the following to your `~/.bash_profile` ( or `~/.bash_rc`)
+```bash
+export DYLD_PRINT_LIBRARIES=1
+```
 
 
 ### References:
