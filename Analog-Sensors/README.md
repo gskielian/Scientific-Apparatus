@@ -22,7 +22,7 @@ analogReference(INTERNAL);
 * INTERNAL: the built-in reference:
   * 1.1 volts on the ATmega168 or ATmega328 
   * 2.56 volts on the ATmega8 
-  * *Note: Arduino Mega Has 2 references (so you will need to specify, see [only for mega](#only-for-the-arduino-mega)*
+  * *Note: Arduino Mega Has 2 references (so you will need to specify, see [only for mega](#only-for-the-arduino-mega))*
 * EXTERNAL: You Choose the Voltage Reference (must be between 0V and 5V for Uno, ref voltage cannot be negative or exceed whichever voltage your board runs on)
 
 ###  Only for the Arduino Mega
