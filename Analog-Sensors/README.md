@@ -24,5 +24,7 @@ analogReference(INTERNAL);
 *  INTERNAL1V1: use the built-in 1.1V reference
 *  INTERNAL2V56: use the built-in 2.56V reference
 
+------
+
 #### Further Information
 For further information check out this link: http://arduino.cc/en/Reference/AnalogReference
