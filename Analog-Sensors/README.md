@@ -1,9 +1,14 @@
+Introduction to Analog Sensors
+==============================
+
 A common theme in this field will be resetting the Arduino Voltage Reference.
 
 
 By adjusting the voltage scale, you can "amplify" using software (or save on an analog amp stage).
 
 For example, a certain dissolved oxygen sensor has a range from 0 to 50mV, if you find a good 60mV voltage reference (possibly by using a voltage divider on the 5v or 3.3v pin), then you would virtually have a full scale without having to amplify the signal further.
+
+---
 
 ### Code to include in the setup:
 
