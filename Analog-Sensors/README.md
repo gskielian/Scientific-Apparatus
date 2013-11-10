@@ -5,11 +5,7 @@ By adjusting the voltage scale, you can "amplify" using software (or save on an 
 
 For example, a certain dissolved oxygen sensor has a range from 0 to 50mV, if you find a good 60mV voltage reference (possibly by using a voltage divider on the 5v or 3.3v pin), then you would virtually have a full scale without having to amplify the signal further.
 
-
-
-
-Main link: http://arduino.cc/en/Reference/AnalogReference
-
+### Code to include in the setup:
 
 ```arduino
 analogReference(INTERNAL);
@@ -27,3 +23,6 @@ analogReference(INTERNAL);
 ###  Only for the Arduino Mega
 *  INTERNAL1V1: use the built-in 1.1V reference
 *  INTERNAL2V56: use the built-in 2.56V reference
+
+#### Further Information
+For further information check out this link: http://arduino.cc/en/Reference/AnalogReference
